@@ -1,0 +1,10 @@
+
+version: 2.1
+executors:
+  go_image:
+    docker:
+      - image: circleci/golang:1.13.1
+
+orbs:
+  secret-injector: bestsellerit/secret-injector@1.0.3
+  slack: circleci/slack@3.4.2
