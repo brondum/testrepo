@@ -1,4 +1,4 @@
 #target_branch: brondum-patch-1
-default_reviewers: ["brondum"]
+default_reviewers: ["brondum", "Gaardsholt"]
 default_labels: ["test","test2"]
 default_assignees: ["brondum"]
