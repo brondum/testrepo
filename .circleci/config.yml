@@ -4,6 +4,16 @@ executors:
   go_image:
     docker:
       - image: circleci/golang:1.13.1
+  alpine:
+    docker:
+      - image: alpine:latest
+  rdesktop:
+    docker:
+      - image: linuxserver/rdesktop:version-b5ae438f
+  cert:
+    docker:
+      - image: quay.io/jetstack/cert-manager-controller:v1.0.0
+
 
 orbs:
   secret-injector: bestsellerit/secret-injector@1.0.3
