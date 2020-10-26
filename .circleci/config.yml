@@ -4,9 +4,6 @@ executors:
   go_image:
     docker:
       - image: circleci/golang:1.13.1
-  go_image_suffix:
-    docker:
-      - image: circleci/golang:1.14.10-buster-node-browsers-legacy
   alpine:
     docker:
       - image: alpine:latest
