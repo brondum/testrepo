@@ -1,5 +1,5 @@
 #target_branch: brondum-patch-1
 reviewers: ["brondum", "Gaardsholt","brondum223456"]
 labels: ["test","test2"]
-assignees: ["brondum","brondum223456"]
+assignees: "what if this inst an array"
 some: "this does not exists"
