@@ -1,4 +1,4 @@
 #target_branch: brondum-patch-1
-reviewers: ["brondum", "Gaardsholt","brondum223456"]
+reviewers: ["brondum"]
 labels: ["test","test2"]
 assignees: ["brondum"]
