@@ -14,7 +14,7 @@ executors:
       - image: quay.io/jetstack/cert-manager-controller:v1.0.0
   gcp:
     docker:
-      - image: gcr.io/cloudsql-docker/gce-proxy:1.30.0
+      - image: gcr.io/cloudsql-docker/gce-proxy:1.32.0
 
 
 orbs:
